@@ -1,13 +1,11 @@
-
-import Navbar from './components/navbar/Navbar'
+import React from 'react'
+import Main_layout from './components/main_layout'
 
 function App() {
-  
-
   return (
-    <>
-      <Navbar/>
-    </>
+    <div>
+      <Main_layout />
+    </div>
   )
 }
 
